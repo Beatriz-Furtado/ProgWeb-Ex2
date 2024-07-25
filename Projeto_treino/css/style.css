@@ -164,6 +164,9 @@ img {
 .lista-tematicas {
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 2fr 2fr;
 }
 
 .lista-tematicas__item {
